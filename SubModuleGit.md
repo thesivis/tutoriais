@@ -20,5 +20,8 @@ git pull --recurse-submodules
 Para isso realize o commit em cada repositório, depois vá para o repositório pai e digite:
 
 ```
+git status
+git add *
+git commit -m "Comentario"
 git push --recurse-submodules=on-demand
 ```
