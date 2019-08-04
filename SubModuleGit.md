@@ -5,6 +5,20 @@
 
 ## Adicionando um submodulo no projeto git
 
+Na pasta raiz de todos os repositórios digite:
+
 ```
-git submodule add https://github.com/thesivis/tutoriais.git
+git submodule add <URL.git>
+```
+
+## Realizando o pull recursivo
+```
+git pull --recurse-submodules
+```
+
+## Realizando o push recursivo
+Para isso realize o commit em cada repositório, depois vá para o repositório pai e digite:
+
+```
+git push --recurse-submodules=on-demand
 ```
