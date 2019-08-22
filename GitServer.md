@@ -1,5 +1,5 @@
 
-#Configurar Ubuntu para ser o git server pelo http
+# Configurar Ubuntu para ser o git server pelo http
 
 Crie uma pasta onde ficará os repositórios do git
 ```
