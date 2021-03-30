@@ -3,7 +3,7 @@
 ## Instalando o create-react-app para o NPM global
 
 ```
-sudo npm install -g create-react-ap
+sudo npm install -g create-react-app
 sudo npm update -g create-react-app
 ```
 
